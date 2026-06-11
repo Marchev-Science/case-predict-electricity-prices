@@ -1,0 +1,120 @@
+{
+  "window": {
+    "start": "2026-02-01",
+    "end": "2026-06-10"
+  },
+  "weather_Sofia": {
+    "rows": 3120,
+    "ok": true,
+    "first_timestamp": "2026-02-01 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  },
+  "weather_Plovdiv": {
+    "rows": 3120,
+    "ok": true,
+    "first_timestamp": "2026-02-01 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  },
+  "weather_Varna": {
+    "rows": 3120,
+    "ok": true,
+    "first_timestamp": "2026-02-01 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  },
+  "weather_Burgas": {
+    "rows": 3120,
+    "ok": true,
+    "first_timestamp": "2026-02-01 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  },
+  "weather_Ruse": {
+    "rows": 144,
+    "ok": true,
+    "first_timestamp": "2026-06-05 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  },
+  "weather_bg_total": {
+    "rows": 3120,
+    "ok": true,
+    "first_timestamp": "2026-02-01 00:00:00",
+    "last_timestamp": "2026-06-10 23:00:00",
+    "columns": [
+      "timestamp",
+      "temperature_2m",
+      "wind_speed_10m",
+      "wind_speed_100m",
+      "wind_direction_100m",
+      "shortwave_radiation",
+      "direct_normal_irradiance",
+      "cloud_cover",
+      "precipitation",
+      "relative_humidity_2m",
+      "source"
+    ]
+  }
+}
