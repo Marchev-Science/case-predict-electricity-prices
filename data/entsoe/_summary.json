@@ -1,0 +1,670 @@
+{
+  "window": {
+    "start": "2025-12-01",
+    "end": "2026-06-10"
+  },
+  "prices_day_ahead": {
+    "rows": 18333,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-10 00:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "prices_day_ahead"
+    ]
+  },
+  "prices_intraday_ida": {
+    "rows": 0,
+    "ok": false
+  },
+  "load_actual": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "Actual Load"
+    ]
+  },
+  "load_forecast_day_ahead": {
+    "rows": 4535,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "Forecasted Load"
+    ]
+  },
+  "generation_per_type": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "Biomass",
+      "Fossil Brown coal/Lignite",
+      "Fossil Gas",
+      "Fossil Hard coal",
+      "Hydro Pumped Storage",
+      "Hydro Run-of-river and poundage",
+      "Hydro Water Reservoir",
+      "Nuclear",
+      "Solar",
+      "Waste",
+      "Wind Onshore"
+    ]
+  },
+  "generation_forecast_day_ahead": {
+    "rows": 4535,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "generation_forecast_day_ahead"
+    ]
+  },
+  "wind_solar_forecast": {
+    "rows": 3887,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-05-22 00:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "Solar",
+      "Wind Onshore"
+    ]
+  },
+  "imbalance_prices": {
+    "rows": 0,
+    "ok": false
+  },
+  "imbalance_volumes": {
+    "rows": 0,
+    "ok": false
+  },
+  "net_position": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "net_position"
+    ]
+  },
+  "scheduled_exchanges_BG_to_RO": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_BG_to_RO"
+    ]
+  },
+  "scheduled_exchanges_RO_to_BG": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_RO_to_BG"
+    ]
+  },
+  "physical_flows_BG_to_RO": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_BG_to_RO"
+    ]
+  },
+  "physical_flows_RO_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_RO_to_BG"
+    ]
+  },
+  "transfer_capacity_dayahead_BG_to_RO": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_BG_to_RO"
+    ]
+  },
+  "transfer_capacity_dayahead_RO_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_RO_to_BG"
+    ]
+  },
+  "transfer_capacity_weekahead_BG_to_RO": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_weekahead_BG_to_RO"
+    ]
+  },
+  "transfer_capacity_weekahead_RO_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_weekahead_RO_to_BG"
+    ]
+  },
+  "transfer_capacity_monthahead_BG_to_RO": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_BG_to_RO"
+    ]
+  },
+  "transfer_capacity_monthahead_RO_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_RO_to_BG"
+    ]
+  },
+  "transfer_capacity_yearahead_BG_to_RO": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 01:00:00+02:00",
+    "last_timestamp": "2026-05-02 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_BG_to_RO"
+    ]
+  },
+  "transfer_capacity_yearahead_RO_to_BG": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 01:00:00+02:00",
+    "last_timestamp": "2026-05-02 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_RO_to_BG"
+    ]
+  },
+  "scheduled_exchanges_BG_to_GR": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_BG_to_GR"
+    ]
+  },
+  "scheduled_exchanges_GR_to_BG": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_GR_to_BG"
+    ]
+  },
+  "physical_flows_BG_to_GR": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_BG_to_GR"
+    ]
+  },
+  "physical_flows_GR_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_GR_to_BG"
+    ]
+  },
+  "transfer_capacity_dayahead_BG_to_GR": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_BG_to_GR"
+    ]
+  },
+  "transfer_capacity_dayahead_GR_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_GR_to_BG"
+    ]
+  },
+  "transfer_capacity_weekahead_BG_to_GR": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_weekahead_GR_to_BG": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_monthahead_BG_to_GR": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_BG_to_GR"
+    ]
+  },
+  "transfer_capacity_monthahead_GR_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_GR_to_BG"
+    ]
+  },
+  "transfer_capacity_yearahead_BG_to_GR": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 01:00:00+02:00",
+    "last_timestamp": "2026-05-02 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_BG_to_GR"
+    ]
+  },
+  "transfer_capacity_yearahead_GR_to_BG": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 01:00:00+02:00",
+    "last_timestamp": "2026-05-02 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_GR_to_BG"
+    ]
+  },
+  "scheduled_exchanges_BG_to_RS": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_BG_to_RS"
+    ]
+  },
+  "scheduled_exchanges_RS_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_RS_to_BG"
+    ]
+  },
+  "physical_flows_BG_to_RS": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_BG_to_RS"
+    ]
+  },
+  "physical_flows_RS_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_RS_to_BG"
+    ]
+  },
+  "transfer_capacity_dayahead_BG_to_RS": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_BG_to_RS"
+    ]
+  },
+  "transfer_capacity_dayahead_RS_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_RS_to_BG"
+    ]
+  },
+  "transfer_capacity_weekahead_BG_to_RS": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_weekahead_RS_to_BG": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_monthahead_BG_to_RS": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_BG_to_RS"
+    ]
+  },
+  "transfer_capacity_monthahead_RS_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+01:00",
+    "last_timestamp": "2026-06-08 01:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_RS_to_BG"
+    ]
+  },
+  "transfer_capacity_yearahead_BG_to_RS": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 01:00:00+02:00",
+    "last_timestamp": "2026-05-02 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_BG_to_RS"
+    ]
+  },
+  "transfer_capacity_yearahead_RS_to_BG": {
+    "rows": 6,
+    "ok": true,
+    "first_timestamp": "2025-12-02 00:00:00+01:00",
+    "last_timestamp": "2026-05-02 01:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_yearahead_RS_to_BG"
+    ]
+  },
+  "scheduled_exchanges_BG_to_MK": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_BG_to_MK"
+    ]
+  },
+  "scheduled_exchanges_MK_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_MK_to_BG"
+    ]
+  },
+  "physical_flows_BG_to_MK": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_BG_to_MK"
+    ]
+  },
+  "physical_flows_MK_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_MK_to_BG"
+    ]
+  },
+  "transfer_capacity_dayahead_BG_to_MK": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_BG_to_MK"
+    ]
+  },
+  "transfer_capacity_dayahead_MK_to_BG": {
+    "rows": 4583,
+    "ok": true,
+    "first_timestamp": "2025-11-30 23:00:00+01:00",
+    "last_timestamp": "2026-06-09 22:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_MK_to_BG"
+    ]
+  },
+  "transfer_capacity_weekahead_BG_to_MK": {
+    "rows": 158,
+    "ok": true,
+    "first_timestamp": "2026-01-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_weekahead_BG_to_MK"
+    ]
+  },
+  "transfer_capacity_weekahead_MK_to_BG": {
+    "rows": 158,
+    "ok": true,
+    "first_timestamp": "2026-01-01 00:00:00+01:00",
+    "last_timestamp": "2026-06-08 01:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_weekahead_MK_to_BG"
+    ]
+  },
+  "transfer_capacity_monthahead_BG_to_MK": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_BG_to_MK"
+    ]
+  },
+  "transfer_capacity_monthahead_MK_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+01:00",
+    "last_timestamp": "2026-06-08 01:00:00+02:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_MK_to_BG"
+    ]
+  },
+  "transfer_capacity_yearahead_BG_to_MK": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_yearahead_MK_to_BG": {
+    "rows": 0,
+    "ok": false
+  },
+  "scheduled_exchanges_BG_to_TR": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_BG_to_TR"
+    ]
+  },
+  "scheduled_exchanges_TR_to_BG": {
+    "rows": 18332,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+03:00",
+    "last_timestamp": "2026-06-09 23:45:00+03:00",
+    "columns": [
+      "timestamp",
+      "scheduled_exchanges_TR_to_BG"
+    ]
+  },
+  "physical_flows_BG_to_TR": {
+    "rows": 4582,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_BG_to_TR"
+    ]
+  },
+  "physical_flows_TR_to_BG": {
+    "rows": 4582,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+03:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "physical_flows_TR_to_BG"
+    ]
+  },
+  "transfer_capacity_dayahead_BG_to_TR": {
+    "rows": 4535,
+    "ok": true,
+    "first_timestamp": "2025-12-01 00:00:00+02:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_BG_to_TR"
+    ]
+  },
+  "transfer_capacity_dayahead_TR_to_BG": {
+    "rows": 4535,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+03:00",
+    "last_timestamp": "2026-06-09 23:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_dayahead_TR_to_BG"
+    ]
+  },
+  "transfer_capacity_weekahead_BG_to_TR": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_weekahead_TR_to_BG": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_monthahead_BG_to_TR": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 01:00:00+02:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_BG_to_TR"
+    ]
+  },
+  "transfer_capacity_monthahead_TR_to_BG": {
+    "rows": 190,
+    "ok": true,
+    "first_timestamp": "2025-12-01 02:00:00+03:00",
+    "last_timestamp": "2026-06-08 02:00:00+03:00",
+    "columns": [
+      "timestamp",
+      "transfer_capacity_monthahead_TR_to_BG"
+    ]
+  },
+  "transfer_capacity_yearahead_BG_to_TR": {
+    "rows": 0,
+    "ok": false
+  },
+  "transfer_capacity_yearahead_TR_to_BG": {
+    "rows": 0,
+    "ok": false
+  },
+  "unavailability_generation_units": {
+    "rows": 122,
+    "ok": true,
+    "first_timestamp": "2025-10-07 23:52:11+03:00",
+    "last_timestamp": "2026-06-10 13:08:20+03:00",
+    "columns": [
+      "created_doc_time",
+      "avail_qty",
+      "biddingzone_domain",
+      "businesstype",
+      "curvetype",
+      "docstatus",
+      "end",
+      "mrid",
+      "nominal_power",
+      "plant_type",
+      "production_resource_id",
+      "production_resource_location",
+      "production_resource_name",
+      "production_resource_psr_name",
+      "pstn",
+      "qty_uom",
+      "resolution",
+      "revision",
+      "start"
+    ]
+  },
+  "unavailability_production_units": {
+    "rows": 0,
+    "ok": false
+  }
+}
